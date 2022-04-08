@@ -1,3 +1,5 @@
 Ndata;reduccion;analisis;precision;recall
 27492;{"type":"encoder","capas":[1024, 32, 32],"finalDim":2,"batch_size":28,"epochs":20};{"type":"isoForest","contamination":0.018222222222222223};0.776;0.7886178861788617
 27492;{"type":"encoder","capas":[30, 1024, 128, 8],"finalDim":2,"batch_size":28,"epochs":20};{"type":"isoForest","contamination":0.018222222222222223};0.7465069860279441;0.7601626016260162
+27492;{"type":"encoder","capas":[512, 128],"finalDim":4,"batch_size":16,"epochs":20};{"type":"isoForest","contamination":0.018222222222222223};0.7884231536926147;0.8028455284552846
+27492;{"type":"pca","n_components":2};{"type":"isoForest","contamination":0.018222222222222223};0.7704590818363274;0.7845528455284553
