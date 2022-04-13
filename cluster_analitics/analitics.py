@@ -83,6 +83,7 @@ class ReductionDim():
 
         if self.reductionN == 'encoder':
             self._redImplement()
+            rn.set_seed(999)
             self.capas, self.finalDim, self.batch_size, self.epochs = args
             self.inputShape = self.x.shape[1]
             self.reduction = self.reduction(
@@ -99,6 +100,7 @@ class ReductionDim():
             self.reduction.fit(self.x)
 
         if self.reductionN == 'encoder':
+            rn.set_seed(999)
             self.reduction.compile(loss='mean_squared_error', optimizer=Adam())
             self.reduction.fit(
                 self.x, self.x, batch_size=self.batch_size, epochs=self.epochs,
@@ -118,7 +120,7 @@ class ReductionDim():
             return self.reduction.transform(self.x)
 
         if self.reductionN == 'encoder':
-
+            rn.set_seed(999)
             # bottleneck representation
             return self.reductionEnco.predict(self.x)
 
@@ -134,6 +136,7 @@ class ReductionDim():
             return self.reduction.transform(self.x)
 
         if self.reductionN == 'encoder':
+            rn.set_seed(999)
             self.reduction.compile(loss='mean_squared_error', optimizer=Adam())
             self.reduction.fit(
                 self.x, self.x, batch_size=self.batch_size, epochs=self.epochs,
