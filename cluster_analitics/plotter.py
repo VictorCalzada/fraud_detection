@@ -123,6 +123,9 @@ def probPlot(x,y,*,engine='plotly'):
             y=1.02,
             xanchor="right",
             x=1
-        ))
+        ),
+        autosize=False,
+        width=1000,
+        height=800)
 
         fig.show()
