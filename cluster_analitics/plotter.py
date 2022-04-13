@@ -88,3 +88,41 @@ def precisionRecall(precision, recall,*,engine='matplotlib',color=['blue', 'red'
         fig.update_layout(barmode='group')
         fig.show()
 
+
+def _centerCal(x):
+    n = x.shape[0]
+    val = np.zeros(x.shape[1])
+    for i in range(n):
+        val = np.add(val, x[i,:])
+    return val/n
+
+
+def _distPoint(x, point):
+    n = x.shape[0]
+    dist = np.zeros(n)
+    for i in range(n):
+        dist[i] = np.linalg.norm(x[i,:]-point)
+
+    return dist
+
+def probPlot(x,y,*,engine='plotly'):
+    x_nor = x[y==0,:]
+    x_fr = x[y==1,:]
+    dist = _distPoint(x_fr,_centerCal(x_nor))
+    dist = dist/np.max(dist)
+    if engine == 'plotly':
+        fig = go.Figure()
+        
+        fig.add_trace(go.Scatter(x=x_nor[:,0], y=x_nor[:,1], mode='markers',marker_line_width=0.5, opacity=0.8, name='No_fraud_cluster',  hoverinfo='skip', visible='legendonly'))
+        fig.add_trace(go.Scatter(x=x_fr[:,0], y=x_fr[:,1], mode='markers', marker=dict(color=dist, showscale=True),marker_line_width=0.3,opacity=1,showlegend=False, 
+                         hovertemplate='(%{x},%{y})<br> %{text}',text=['Prob: {}'.format(d) for d in dist],name=''))
+        
+        fig.update_layout(legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1
+        ))
+
+        fig.show()
