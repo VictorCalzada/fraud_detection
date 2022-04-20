@@ -86,7 +86,12 @@ class ModelosItems:
             self.val = self.precision()
         elif self.metric == 'recall':
             self.val = self.recall()
-    
+            
+    def predictXY(self):
+        x = self.reduccion.predict()
+        self.analisis.setX(x)
+        return x, self.analisis.fit_predict()
+
     def __lt__(self, other):
         return self.val < other.val 
 
