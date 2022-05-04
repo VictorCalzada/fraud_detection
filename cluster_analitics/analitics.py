@@ -262,7 +262,9 @@ class Analisis():
         else:
             self.modelo.fit(self.x)
 
-    def predict(self) -> np.array:
+    def predict(self,x=np.array([]) ) -> np.array:
+        if len(x) != 0:
+            self.x = x
         if self.modeloN == 'lof':
             y = self.modelo.predict(self.x)
             y[y == 1] = 0
