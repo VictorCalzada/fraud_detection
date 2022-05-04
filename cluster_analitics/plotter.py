@@ -105,6 +105,28 @@ def _distPoint(x, point):
 
     return dist
 
+def prob(x,y):
+    x_fr = x[y==1,:]
+    dist = _distPoint(x_fr, _centerCal(x))
+    dist = dist/np.max(dist)
+    prob = np.zeros(len(y))
+    prob[y==1] = dist
+    return prob
+
+def sumProbs(*args,weights=[], threshold = -1):
+    n = len(args)
+    args = list(args)
+    if not weights:
+        weights = np.ones(n)
+    for i in range(n):
+        args[i] = args[i] * weights[i]
+    prob = sum(args)
+    prob = prob/np.max(prob)
+    if threshold != -1:
+        prob[prob < threshold] = 0
+    return prob
+    
+
 def probPlot(x,y,*,engine='plotly'):
     x_nor = x[y==0,:]
     x_fr = x[y==1,:]
