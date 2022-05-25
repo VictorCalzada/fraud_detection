@@ -1,0 +1,162 @@
+Codigo,variable,subvariable,value,code
+302,empresas,condición jurídica,Total,0
+302,empresas,condición jurídica,Sociedades anónimas,1
+302,empresas,condición jurídica,Sociedades de responsabilidad limitada,2
+302,empresas,condición jurídica,Sociedades colectivas,3
+302,empresas,condición jurídica,Sociedades comanditarias,4
+302,empresas,condición jurídica,Comunidades de bienes,5
+302,empresas,condición jurídica,Sociedades cooperativas,6
+302,empresas,condición jurídica,Asociaciones y otros tipos,7
+302,empresas,condición jurídica,Organismos autónomos y otros,8
+302,empresas,condición jurídica,Personas físicas,9
+6454,sociedades,total nacional,Total Nacional,10
+6454,sociedades,forma jurídica,Total,0
+6454,sociedades,forma jurídica,S.A.,11
+6454,sociedades,forma jurídica,S.L.,12
+6454,sociedades,forma jurídica,"S. COM., S. COM. P.A. y S.C.",13
+6454,sociedades,número de sociedades y capital (en miles de euros),Número de Sociedades,14
+6454,sociedades,número de sociedades y capital (en miles de euros),capital (en miles de euros) suscrito,15
+6454,sociedades,número de sociedades y capital (en miles de euros),capital (en miles de euros) desembolsado,16
+37630,precio_trabajo,tipo de dato,Índice,17
+37630,precio_trabajo,tipo de dato,Tasa de variación anual,18
+13582,paro,sexo,Ambos sexos,19
+13582,paro,sexo,Hombres,20
+13582,paro,sexo,Mujeres,21
+13582,paro,tiempo de residencia en el municipio,Total,0
+13582,paro,tiempo de residencia en el municipio,Menos de 1 año,22
+13582,paro,tiempo de residencia en el municipio,Entre 1 y menos de 3 años,23
+13582,paro,tiempo de residencia en el municipio,Entre 3 y menos de 5 años,24
+13582,paro,tiempo de residencia en el municipio,5 o más años,25
+13539,actividad,sexo,Ambos sexos,19
+13539,actividad,sexo,Hombres,20
+13539,actividad,sexo,Mujeres,21
+13539,actividad,tiempo de residencia en el municipio,Total,0
+13539,actividad,tiempo de residencia en el municipio,Menos de 1 año,22
+13539,actividad,tiempo de residencia en el municipio,Entre 1 y menos de 3 años,23
+13539,actividad,tiempo de residencia en el municipio,Entre 3 y menos de 5 años,24
+13539,actividad,tiempo de residencia en el municipio,5 o más años,25
+13580,ocupados,ubicación del municipio de residencia anterior,Total,0
+13580,ocupados,ubicación del municipio de residencia anterior,En la misma comunidad autónoma,26
+13580,ocupados,ubicación del municipio de residencia anterior,En otra comunidad autónoma,27
+13580,ocupados,ubicación del municipio de residencia anterior,En otro país,28
+13580,ocupados,ubicación del municipio de residencia anterior,Ninguna variación desde nacimiento,29
+13580,ocupados,tiempo de residencia en el municipio,Total,0
+13580,ocupados,tiempo de residencia en el municipio,Menos de 1 año,22
+13580,ocupados,tiempo de residencia en el municipio,Entre 1 y menos de 3 años,23
+13580,ocupados,tiempo de residencia en el municipio,Entre 3 y menos de 5 años,24
+13580,ocupados,tiempo de residencia en el municipio,5 o más años,25
+28191,d_salarial,sexo,Ambos sexos,19
+28191,d_salarial,sexo,Mujeres,21
+28191,d_salarial,sexo,Hombres,20
+28191,d_salarial,medidas y percentiles,Media,30
+28191,d_salarial,medidas y percentiles,Percentil 10,31
+28191,d_salarial,medidas y percentiles,Cuartil inferior,32
+28191,d_salarial,medidas y percentiles,Mediana,33
+28191,d_salarial,medidas y percentiles,Cuartil superior,34
+28191,d_salarial,medidas y percentiles,Percentil 90,35
+28192,gat_sector,sectores de actividad,Todos los sectores,36
+28192,gat_sector,sectores de actividad,Industria,37
+28192,gat_sector,sectores de actividad,Construcción,38
+28192,gat_sector,sectores de actividad,Servicios,39
+28192,gat_sector,sexo,Ambos sexos,19
+28192,gat_sector,sexo,Mujeres,21
+28192,gat_sector,sexo,Hombres,20
+28193,gat_ocupacion,ocupación,Todas las ocupaciones,40
+28193,gat_ocupacion,ocupación,Alta,41
+28193,gat_ocupacion,ocupación,Media,30
+28193,gat_ocupacion,ocupación,Baja,42
+28193,gat_ocupacion,sexo,Ambos sexos,19
+28193,gat_ocupacion,sexo,Mujeres,21
+28193,gat_ocupacion,sexo,Hombres,20
+28200,gat_contrato,tipo de contrato,Total,0
+28200,gat_contrato,tipo de contrato,Indefinido,43
+28200,gat_contrato,tipo de contrato,Temporal,44
+28200,gat_contrato,sexo,Ambos sexos,19
+28200,gat_contrato,sexo,Mujeres,21
+28200,gat_contrato,sexo,Hombres,20
+28203,ght_sector,sectores de actividad,Todos los sectores,36
+28203,ght_sector,sectores de actividad,Industria,37
+28203,ght_sector,sectores de actividad,Construcción,38
+28203,ght_sector,sectores de actividad,Servicios,39
+28203,ght_sector,sexo,Ambos sexos,19
+28203,ght_sector,sexo,Mujeres,21
+28203,ght_sector,sexo,Hombres,20
+28204,ght_ocupacion,ocupación,Todas las ocupaciones,40
+28204,ght_ocupacion,ocupación,Alta,41
+28204,ght_ocupacion,ocupación,Media,30
+28204,ght_ocupacion,ocupación,Baja,42
+28204,ght_ocupacion,sexo,Ambos sexos,19
+28204,ght_ocupacion,sexo,Mujeres,21
+28204,ght_ocupacion,sexo,Hombres,20
+28205,ght_contrato,tipo de contrato,Total,0
+28205,ght_contrato,tipo de contrato,Indefinido,43
+28205,ght_contrato,tipo de contrato,Temporal,44
+28205,ght_contrato,sexo,Ambos sexos,19
+28205,ght_contrato,sexo,Mujeres,21
+28205,ght_contrato,sexo,Hombres,20
+9947,renta_p,renta anual neta media por persona y por unidad de consumo,Renta neta media por persona ,45
+9947,renta_p,renta anual neta media por persona y por unidad de consumo,Renta media por unidad de consumo ,46
+9947,renta_p,renta anual neta media por persona y por unidad de consumo,Renta media por persona (con alquiler imputado) ,47
+9947,renta_p,renta anual neta media por persona y por unidad de consumo,Renta media por unidad de consumo (con alquiler imputado) ,48
+9949,renta_h,renta anual neta media por hogar,Renta neta media por hogar,49
+9949,renta_h,renta anual neta media por hogar,Renta media por hogar (con alquiler imputado),50
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Primer decil,51
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Segundo decil,52
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Tercer decil,53
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Cuarto decil,54
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Quinto decil,55
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Sexto decil,56
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Septimo decil,57
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Octavo decil,58
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Noveno decil,59
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),Décimo decil,60
+9956,renta_d,decil de la renta por unidad de consumo (año anterior al de la entrevista),No consta,61
+9963,pobreza,tasa de riesgo de pobreza,Tasa de riesgo de pobreza (renta del año anterior a la entrevista),62
+9963,pobreza,tasa de riesgo de pobreza,Tasa de riesgo de pobreza (con alquiler imputado) (renta del año anterior a la entrevista),63
+9972,carencia_p,carencia material,No puede permitirse ir de vacaciones al menos una semana al año,64
+9972,carencia_p,carencia material,"No puede permitirse una comida de carne, pollo o pescado al menos cada dos días",65
+9972,carencia_p,carencia material,No puede permitirse mantener la vivienda con una temperatura adecuada,66
+9972,carencia_p,carencia material,No tiene capacidad para afrontar gastos imprevistos,67
+9972,carencia_p,carencia material,"Ha tenido retrasos en el pago de gastos relacionados con la vivienda principal (hipoteca o alquiler, recibos de gas, comunidad...) en los últimos 12 meses",68
+9972,carencia_p,carencia material,No puede permitirse disponer de un automóvil,69
+9972,carencia_p,carencia material,No puede permitirse disponer de un ordenador personal,70
+9975,carencia_h,carencia material,No puede permitirse ir de vacaciones al menos una semana al año,64
+9975,carencia_h,carencia material,"No puede permitirse una comida de carne, pollo o pescado al menos cada dos días",65
+9975,carencia_h,carencia material,No puede permitirse mantener la vivienda con una temperatura adecuada,66
+9975,carencia_h,carencia material,No tiene capacidad para afrontar gastos imprevistos,67
+9975,carencia_h,carencia material,"Ha tenido retrasos en el pago de gastos relacionados con la vivienda principal (hipoteca o alquiler, recibos de gas, comunidad...) en los últimos 12 meses",68
+9975,carencia_h,carencia material,No puede permitirse disponer de un automóvil,69
+9975,carencia_h,carencia material,No puede permitirse disponer de un ordenador personal,70
+9981,ncarencia_p,carencia en un determinado número de conceptos,Carencia en al menos 2 conceptos,71
+9981,ncarencia_p,carencia en un determinado número de conceptos,Carencia en al menos 3 conceptos,72
+9981,ncarencia_p,carencia en un determinado número de conceptos,Carencia en al menos 4 conceptos,73
+9984,ncarencia_h,carencia en un determinado número de conceptos,Carencia en al menos 2 conceptos,71
+9984,ncarencia_h,carencia en un determinado número de conceptos,Carencia en al menos 3 conceptos,72
+9984,ncarencia_h,carencia en un determinado número de conceptos,Carencia en al menos 4 conceptos,73
+9990,p_dificultades,dificultad para llegar a fin de mes,Con mucha dificultad,74
+9990,p_dificultades,dificultad para llegar a fin de mes,Con dificultad,75
+9990,p_dificultades,dificultad para llegar a fin de mes,Con cierta dificultad,76
+9990,p_dificultades,dificultad para llegar a fin de mes,Con cierta facilidad,77
+9990,p_dificultades,dificultad para llegar a fin de mes,Con facilidad,78
+9990,p_dificultades,dificultad para llegar a fin de mes,Con mucha facilidad,79
+9990,p_dificultades,dificultad para llegar a fin de mes,No consta,61
+9993,h_dificultades,dificultad para llegar a fin de mes,Con mucha dificultad,74
+9993,h_dificultades,dificultad para llegar a fin de mes,Con dificultad,75
+9993,h_dificultades,dificultad para llegar a fin de mes,Con cierta dificultad,76
+9993,h_dificultades,dificultad para llegar a fin de mes,Con cierta facilidad,77
+9993,h_dificultades,dificultad para llegar a fin de mes,Con facilidad,78
+9993,h_dificultades,dificultad para llegar a fin de mes,Con mucha facilidad,79
+9993,h_dificultades,dificultad para llegar a fin de mes,No consta,61
+9997,rvivienda_h,régimen de tenencia de la vivienda principal,Propiedad,80
+9997,rvivienda_h,régimen de tenencia de la vivienda principal,Alquiler a precio de mercado,81
+9997,rvivienda_h,régimen de tenencia de la vivienda principal,Alquiler inferior al precio de mercado,82
+9997,rvivienda_h,régimen de tenencia de la vivienda principal,Cesión,83
+10001,pvivienda_h,determinados problemas que sufren en la vivienda y su entorno,Escasez de luz natural,84
+10001,pvivienda_h,determinados problemas que sufren en la vivienda y su entorno,Ruidos producidos por vecinos o del exterior,85
+10001,pvivienda_h,determinados problemas que sufren en la vivienda y su entorno,Contaminación y otros problemas ambientales,86
+10001,pvivienda_h,determinados problemas que sufren en la vivienda y su entorno,Delincuencia o vandalismo,87
+10001,pvivienda_h,determinados problemas que sufren en la vivienda y su entorno,Ningún problema,88
+10011,pobreza_exclusion,tasa de riesgo de pobreza o exclusión social (y sus componentes),Tasa de riesgo de pobreza o exclusión social (indicador AROPE),89
+10011,pobreza_exclusion,tasa de riesgo de pobreza o exclusión social (y sus componentes),En riesgo de pobreza (renta año anterior a la entrevista),90
+10011,pobreza_exclusion,tasa de riesgo de pobreza o exclusión social (y sus componentes),Con carencia material severa,91
+10011,pobreza_exclusion,tasa de riesgo de pobreza o exclusión social (y sus componentes),Viviendo en hogares con baja intensidad en el trabajo (de 0 a 59 años),92
